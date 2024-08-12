@@ -4,154 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jesús Rajado Rojas - Desarrollador Python/Django</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Jesús Rajado Rojas</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience">Experiencia</a></li>
-                <li class="nav-item"><a class="nav-link" href="#education">Educación</a></li>
-                <li class="nav-item"><a class="nav-link" href="#certifications">Certificaciones</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
-            </ul>
+    <div class="sidebar">
+        <div>
+            <h1>Jesús Rajado Rojas</h1>
+            <nav>
+                <a href="#about">Sobre mí</a>
+                <a href="#experience">Experiencia</a>
+                <a href="#education">Educación</a>
+                <a href="#certifications">Certificaciones</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#contact">Contacto</a>
+            </nav>
         </div>
-    </nav>
+        <footer>
+            <p>&copy; 2024 Jesús Rajado Rojas. Todos los derechos reservados.</p>
+            <p><a href="https://www.linkedin.com/in/jesusrajadorojas" target="_blank">LinkedIn</a></p>
+        </footer>
+    </div>
 
-    <header class="bg-primary text-white text-center py-5">
-        <div class="container">
-            <h1 class="animate__animated animate__fadeInDown">Jesús Rajado Rojas</h1>
-            <p class="lead animate__animated animate__fadeInUp">Desarrollador Python/Django</p>
-        </div>
-    </header>
+    <div class="main-content">
+        <header>
+            <h1>Hola, soy</h1>
+            <h2>Jesús Rajado Rojas.</h2>
+            <h3>Desarrollador Python/Django.</h3>
+            <p>Soy un desarrollador especializado en crear soluciones innovadoras y eficientes utilizando Python y Django. Apasionado por el desarrollo web, el análisis de datos, y siempre buscando aprender nuevas tecnologías.</p>
+        </header>
 
-    <main class="container my-5">
-        <section id="about" class="mb-5">
-            <h2 class="border-bottom pb-2">Sobre mí</h2>
+        <section id="about">
+            <h2 class="section-title">Sobre mí</h2>
             <p>Desarrollador Python/Django con experiencia en análisis de datos y desarrollo de plataformas web. Comprometido con la mejora continua y la entrega de soluciones innovadoras.</p>
         </section>
 
-        <section id="experience" class="mb-5">
-            <h2 class="border-bottom pb-2">Experiencia</h2>
-            <div class="mb-4">
+        <section id="experience">
+            <h2 class="section-title">Experiencia</h2>
+            <div class="experience">
                 <h3>Desarrollador de software en Vexiza - Soluciones tecnológicas potenciadas con GIS | Ene 2022 - Actualidad</h3>
                 <p>Programación Orientada a Objetos (Java/PHP)</p>
             </div>
-            <div class="mb-4">
+            <div class="experience">
                 <h3>Desarrollador Python/Django en JHK | Feb 2020 - Ene 2022</h3>
-                <ul>
-                    <li>Análisis y automatización de datos corporativos a través de una plataforma interna realizada íntegramente en Python/Django.</li>
-                    <li>Desarrollo de Ecommerce: <a href="https://www.tshirtstore.es/" target="_blank">https://www.tshirtstore.es/</a>. Realizada en Python/Django.</li>
-                    <li>Elaboración de Dashboard en Power BI.</li>
-                </ul>
-            </div>
-            <div class="mb-4">
-                <h3>Desarrollador Python/Django en Tangram BPM | Ago 2019 - Nov 2019</h3>
-                <p>Desarrollo de plataformas web utilizando Python/Django.</p>
-            </div>
-            <div class="mb-4">
-                <h3>Especialista en datos en Full On Net | Ene 2017 - Ago 2019</h3>
-                <p>Gestión y análisis de datos utilizando tecnologías como Python, R, MySQL, Excel y Power BI.</p>
-            </div>
-            <div class="mb-4">
-                <h3>Programador senior en Global TMS | Ene 2016 - Dic 2016</h3>
-                <p>Desarrollo de aplicaciones web utilizando Java, SQL, Struts, Maven, Servicios Rest y Tomcat_6.</p>
+                <p>Análisis y automatización de datos corporativos a través de una plataforma interna realizada íntegramente en Python/Django.</p>
             </div>
         </section>
 
-        <section id="education" class="mb-5">
-            <h2 class="border-bottom pb-2">Educación</h2>
-            <div class="mb-3">
+        <section id="education">
+            <h2 class="section-title">Educación</h2>
+            <div class="education">
                 <h3>Universidad de Extremadura | 2008 - 2012</h3>
                 <p>Ingeniería en Informática de Sistemas</p>
             </div>
-            <div class="mb-3">
+            <div class="education">
                 <h3>UNED | 2015</h3>
                 <p>Grado en Ingeniería Informática</p>
             </div>
         </section>
 
-        <section id="certifications" class="mb-5">
-            <h2 class="border-bottom pb-2">Certificaciones y Cursos</h2>
-            <div class="mb-3">
+        <section id="certifications">
+            <h2 class="section-title">Certificaciones y Cursos</h2>
+            <div class="certifications">
                 <h3>Curso de Introducción al Desarrollo Backend | Platzi</h3>
                 <p>Emitido en: Dic 2021</p>
-                <p>ID de la credencial: PA78162-772</p>
             </div>
-            <div class="mb-3">
+            <div class="certifications">
                 <h3>Curso de Analista de Negocios para Ciencia de Datos | Platzi</h3>
                 <p>Emitido en: Nov 2021</p>
-                <p>ID de la credencial: 74787147-041</p>
-            </div>
-            <div class="mb-3">
-                <h3>Curso de Ingeniería Biomédica</h3>
-                <p>Emitido en: 2015</p>
-            </div>
-            <div class="mb-3">
-                <h3>Curso de Programación Web</h3>
-                <p>Emitido en: 2016</p>
             </div>
         </section>
 
-        <section id="skills" class="mb-5">
-            <h2 class="border-bottom pb-2">Habilidades</h2>
-            <ul class="list-unstyled">
-                <li><i class="fas fa-check"></i> Análisis y desarrollo de nuevas funcionalidades</li>
-                <li><i class="fas fa-check"></i> Librerías científicas: Pandas, Numpy, Matplotlib</li>
-                <li><i class="fas fa-check"></i> Trabajo en equipo</li>
-                <li><i class="fas fa-check"></i> Capacidad de iniciativa</li>
-                <li><i class="fas fa-check"></i> Adaptabilidad</li>
-                <li><i class="fas fa-check"></i> Java EE</li>
-                <li><i class="fas fa-check"></i> JavaScript</li>
-            </ul>
+        <section id="skills">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills">
+                <ul>
+                    <li>Análisis y desarrollo de nuevas funcionalidades</li>
+                    <li>Librerías científicas: Pandas, Numpy, Matplotlib</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Capacidad de iniciativa</li>
+                    <li>Adaptabilidad</li>
+                    <li>Java EE</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
         </section>
 
-        <section id="contact" class="mb-5">
-            <h2 class="border-bottom pb-2">Contacto</h2>
+        <section id="contact">
+            <h2 class="section-title">Contacto</h2>
             <p>Correo electrónico: <a href="mailto:jrajadorojas@gmail.com">jrajadorojas@gmail.com</a></p>
             <p>Teléfono: 679 879 271</p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/jesusrajadorojas" target="_blank">www.linkedin.com/in/jesusrajadorojas</a></p>
         </section>
-    </main>
-
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Jesús Rajado Rojas</p>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-    <script>
-    window.addEventListener("load", function(){
-        window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                    "background": "#000"
-                },
-                "button": {
-                    "background": "#f1d600"
-                }
-            },
-            "theme": "classic",
-            "content": {
-                "message": "Este sitio web utiliza cookies para mejorar la experiencia del usuario.",
-                "dismiss": "Aceptar",
-                "link": "Leer más",
-                "href": "https://www.yoursite.com/cookie-policy" // Cambia este enlace a tu política de cookies
-            }
-        })
-    });
-    </script>
+    </div>
 </body>
 </html>
