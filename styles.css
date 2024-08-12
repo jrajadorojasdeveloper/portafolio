@@ -122,16 +122,16 @@ h2.section-title::after {
     left: 0;
 }
 
-.experience, .education, .certifications {
+.experience, .education, .certifications, .project, .testimonials {
     margin-left: 2rem;
 }
 
-.experience h3, .education h3, .certifications h3 {
+.experience h3, .education h3, .certifications h3, .project h3, .testimonials blockquote {
     font-size: 1.5rem;
     color: #ccd6f6;
 }
 
-.experience p, .education p, .certifications p {
+.experience p, .education p, .certifications p, .project p, .testimonials cite {
     color: #8892b0;
     font-size: 1.1rem;
 }
